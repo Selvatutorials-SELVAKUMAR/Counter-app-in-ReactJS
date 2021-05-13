@@ -1,0 +1,46 @@
+.plus{
+    grid-column: 1;
+    grid-row: 1;
+    border: 2px solid black;
+    outline: 2px solid #fff;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.minus{
+    grid-column: 3;
+    grid-row: 1;
+    border: 2px solid black;
+    outline: 2px solid #fff;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.plus:active , .minus:active{
+    background-color: black;
+    color: #fff;
+    box-shadow: inset 0px 0px 5px darkgray;
+    border: 2px solid #fff;
+    outline: 2px solid black;
+}
+
+.plus:hover , .minus:hover{
+    cursor: pointer;
+}
+
+.reset{
+    color: darkmagenta;
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reset:hover{
+    background-color: darkmagenta;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset:active{
+    background-color: rgba(139,0,139,0.7);
+}
